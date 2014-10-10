@@ -1,0 +1,5 @@
+DEFAULTS: &DEFAULTS
+    sockets:
+        sock1: '/path/to/mk-livestatus/socket1'
+        sock2: '/path/to/mk-livestatus/socket2'
+    default_socket: :sock1

@@ -1,0 +1,5 @@
+development:
+  <<: *DEFAULTS
+  sockets:
+      sock1: './livestatus-socket'
+  default_socket: 'sock1'
