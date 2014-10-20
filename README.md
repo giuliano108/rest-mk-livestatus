@@ -20,6 +20,7 @@ Example: which services are not OK on the hosts that match the regexp?
 ```
 curl -s -d '
 {
+  "table": "services",
   "columns": [
     "host_name",
     "display_name",
